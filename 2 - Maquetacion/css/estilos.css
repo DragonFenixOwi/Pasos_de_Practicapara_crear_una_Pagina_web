@@ -1,0 +1,26 @@
+html,body   
+    {
+        padding : 0px;                      /* 1 - Resetear a cero Navegador. O activar "reset.css" */
+        margin  : 0px;                      /* 1 - Resetear a cero Navegador. O activar "reset.css"  */
+        
+        background-color: #efefef;        /* 2 - Buscar un color que no se acerque a blanco. Porque golpea la vista */ 
+
+        display: flex;                      /* 3 - Se declara a "html y body" como FLEXBOX - RESPONSIVE (pilar de la maquetación) */    
+        justify-items: center;              /* 3 - ORDEN EN HORIZONTAL - RESPONSIVE*/
+        align-items: center;                /* 3 - ORDEN EN Vertical - RESPONSIVE*/    /* Eliminar este Responsive, para que sea pantalla completa*/
+        flex-direction: column;             /* 4 - Convertir las cajas de Flexbox de Filas a Columnas */
+
+        
+    }
+
+nav 
+    {
+        padding : 20px; 
+        background-color: black;      /* Color de todo el NAV*/
+        color : white;                /* Color   */
+        display: flex;
+        justify-items: center;
+
+
+
+    }
